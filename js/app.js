@@ -7,13 +7,13 @@ document.querySelector('#action-menu').addEventListener ('click', function () {
 });
 */
 //buttons
-document.querySelector('#btn-buttons').addEventListener ('click', function () {
-  document.querySelector('#buttons').className = 'current';
+document.querySelector('#btn-newMenu').addEventListener ('click', function () {
+  document.querySelector('#newMenu').className = 'current';
   document.querySelector('[data-position="current"]').className = 'left';
 });
-/*
-document.querySelector('#btn-buttons-back').addEventListener ('click', function () {
-  document.querySelector('#buttons').className = 'right';
+
+document.querySelector('#btn-backMain').addEventListener ('click', function () {
+  document.querySelector('#newMenu').className = 'right';
   document.querySelector('[data-position="current"]').className = 'current';
 });
 /*

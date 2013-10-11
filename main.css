@@ -9,6 +9,7 @@
 }
 [data-type='list'] span, [data-type='list'] a {
 	display: inline-block !important;
+	vertical-align: top;
 }
 [data-type='list'] span{
 	margin-right: 20px;
@@ -242,3 +243,7 @@ section[role="region"] {
     .landscape section[role="region"]#drawer > header:first-child {
       /* Whatever needs to be changed on landscape */
     }
+
+input[type='text'],textarea,button{
+	margin-top: 10px;
+}

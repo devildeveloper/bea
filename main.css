@@ -97,7 +97,6 @@ section[role="region"] {
 
 
 
-  <style>
     #index {
       height: 100%;
     }
@@ -243,4 +242,3 @@ section[role="region"] {
     .landscape section[role="region"]#drawer > header:first-child {
       /* Whatever needs to be changed on landscape */
     }
-  </style>

@@ -76,9 +76,7 @@ html, body {
 	font-size: 10px;
 	background-color: #fff;
 } 
-* {
-	overflow: hidden !important;
-} 
+
 section[role="region"] {
 	position: absolute;
 	top: 0;

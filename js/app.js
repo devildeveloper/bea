@@ -1,21 +1,22 @@
 //action menu
-document.querySelector('#btn-action-menu').addEventListener ('click', function () {
+/*document.querySelector('#btn-action-menu').addEventListener ('click', function () {
   document.querySelector('#action-menu').className = 'fade-in';
 });
 document.querySelector('#action-menu').addEventListener ('click', function () {
   this.className = 'fade-out';
 });
-
+*/
 //buttons
 document.querySelector('#btn-buttons').addEventListener ('click', function () {
   document.querySelector('#buttons').className = 'current';
   document.querySelector('[data-position="current"]').className = 'left';
 });
+/*
 document.querySelector('#btn-buttons-back').addEventListener ('click', function () {
   document.querySelector('#buttons').className = 'right';
   document.querySelector('[data-position="current"]').className = 'current';
 });
-
+/*
 //confirm
 document.querySelector('#btn-confirm').addEventListener ('click', function () {
   document.querySelector('#confirm').className = 'fade-in';
@@ -142,3 +143,5 @@ document.querySelector('#btn-toolbars-back').addEventListener ('click', function
   document.querySelector('#toolbars').className = 'right';
   document.querySelector('[data-position="current"]').className = 'current';
 });
+
+*/

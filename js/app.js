@@ -11,21 +11,22 @@ document.querySelector('#btn-newMenu').addEventListener ('click', function () {
   document.querySelector('#newMenu').className = 'current';
   document.querySelector('[data-position="current"]').className = 'left';
 });
-
-document.querySelector('#btn-backMain').addEventListener ('click', function () {
-  document.querySelector('#newMenu').className = 'right';
-  document.querySelector('[data-position="current"]').className = 'current';
-});
-/*
+document.querySelector('#btn-backMain1').addEventListener ('click', function () {
+    document.querySelector('#newMenu').className = 'right';
+    document.querySelector('[data-position="current"]').className = 'current';
+  });
 //confirm
-document.querySelector('#btn-confirm').addEventListener ('click', function () {
-  document.querySelector('#confirm').className = 'fade-in';
-});
-document.querySelector('#confirm').addEventListener ('click', function () {
-  this.className = 'fade-out';
+document.querySelector('#btn-newContacto').addEventListener ('click', function () {
+  document.querySelector('#contacto').className = 'current';
+  document.querySelector('[data-position="current"]').className = 'left';
 });
 
+document.querySelector('#btn-backMain2').addEventListener ('click', function () {
+    document.querySelector('#contacto').className = 'right';
+    document.querySelector('[data-position="current"]').className = 'current';
+  });
 //edit mode
+/*
 document.querySelector('#btn-edit-mode').addEventListener ('click', function () {
   document.querySelector('#edit-mode').className = 'edit';
 });

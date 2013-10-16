@@ -87,6 +87,12 @@ section[role="region"] {
 	background: #fff;
 } 
 
+select{
+  padding-top:10px !important;
+}
+select,input[type='date']{
+  margin-top: 20px;
+}
 
 /*fin de mis modificaciones           */
 

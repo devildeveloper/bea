@@ -17,21 +17,23 @@
 <body>  
    <section  role="region" id="index" data-position="current">
       <header class='fixed'>
-          <menu type='toolbar'>
+         <!--  <menu type='toolbar'>
             <a href="#">
               <span class='icon icon-add'>add</span>
               </a>
             <a href="#">
               <span class='icon icon-edit'>edit</span>
               </a>
-          </menu>
+          </menu> -->
           <h1>Bea | Menues Deliciosos</h1>
       </header>     
       <br>
       <article  class="content scrollable header">
          <nav data-type='list'>
           <ul >
-            <header>Actividades Disponibles</header>
+            <br>
+            <header >Actividades Disponibles</header>
+            <br>
             <li><span class='icon-plus' ></span>
             <a id='btn-newMenu' href="#">Crear nuevo menu</a></li>
             <li><span class='icon-list' ></span>
@@ -39,7 +41,7 @@
             <li><span class='icon-mail' ></span>
             <a id='btn-newContacto' href="mailto:devx.cry@gmail.com">Soporte y contacto</a></li>
             <li><span class='icon-share'></span>
-            <a href="#">Compartir</a></li>
+            <a id='btn-newShare'href="#">Compartir</a></li>
             <li><span class='icon-food' ></span>
             <a href="#">Platos recomendados</a></li>
           </ul>
@@ -74,6 +76,36 @@
           <button type='reset' class='danger'> Cancelar ! </button>
         </form>
       </article>
+  </section>
+    <!--       compartir          -->
+  <section role='region' id='share' data-position='right'>
+    <header >
+      <button id='btn-backMain2'>
+        <span role='back' class='icon icon-back'  >back</span>
+      </button>          
+        <h1>Compartir</h1>
+    </header>
+    <article class="content header">
+      <nav data-type='list'>
+        <ul>
+          <br>
+          <header>
+            Redes sociales
+          </header>
+          <br>
+          <li>
+            <span class='icon-twitter'></span>
+            <a  href="http://www.twitter.com/devildeveloper">Twitter </a></li>
+          <li>
+            <span class='icon-facebook'></span>
+            <a  href="http://www.facebook.com/mkt20">Facebook</a>
+           </li>         
+        </ul>
+      </nav>
+          
+        
+     
+    </article>
   </section>
   <script type="text/javascript" defer src="js/app.js"></script> 
   <script type='text/javascript' defer src='js/main.js'></script>

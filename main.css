@@ -2,8 +2,8 @@
 [data-type='list']{
 	margin-top: 30px;
 }
-[data-type='list'] header{
-	margin-bottom: 30px;
+ul header {
+	margin-top: 60px;
 }
 [data-type='list'] li{
 	margin-top:20px;
@@ -11,19 +11,20 @@
 [data-type='list'] span, [data-type='list'] a {
 	display: inline-block !important;
 	vertical-align: top;
+  margin-right: -5px;
 }
-[data-type='list'] span{
+/*[data-type='list'] span{
 	margin-right: 20px;
-}
+}*/
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot');
-	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.woff') format('woff'),
-		url('fonts/icomoon.ttf') format('truetype'),
-		url('fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot');
+  src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
@@ -45,16 +46,17 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-food, .icon-list, .icon-share, .icon-mail, .icon-plus {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	color: #CC6523;
+.icon-food, .icon-list, .icon-share, .icon-mail, .icon-plus, .icon-facebook, .icon-twitter {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color: #CC6523 !important;
+  /*margin-right: 10px;*/
 }
 .icon-food:before {
 	content: "\e000";
@@ -70,6 +72,12 @@ you can use the generic selector below, but it's slower:
 }
 .icon-plus:before {
 	content: "\e001";
+}
+.icon-facebook:before {
+  content: "\e005";
+}
+.icon-twitter:before {
+  content: "\e006";
 }
 html, body {
 	margin: 0;

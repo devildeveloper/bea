@@ -24,7 +24,17 @@ document.querySelector('#btn-newContacto').addEventListener ('click', function (
 document.querySelector('#btn-backMain2').addEventListener ('click', function () {
     document.querySelector('#contacto').className = 'right';
     document.querySelector('[data-position="current"]').className = 'current';
-  });
+});
+//botones para compartir
+document.querySelector('#btn-newShare').addEventListener ('click', function () {
+  document.querySelector('#share').className = 'current';
+  document.querySelector('[data-position="current"]').className = 'left';
+});
+
+document.querySelector('#btn-backMain2').addEventListener ('click', function () {
+    document.querySelector('#share').className = 'right';
+    document.querySelector('[data-position="current"]').className = 'current';
+});
 //edit mode
 /*
 document.querySelector('#btn-edit-mode').addEventListener ('click', function () {

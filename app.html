@@ -6,7 +6,6 @@
   <title>Building blocks demo</title>
     <link rel="stylesheet" href="style/buttons.css">
     <link rel="stylesheet" href="style/headers.css">
-
     <link rel="stylesheet" href="style_unstable/lists.css">
     <link rel="stylesheet" href="transitions.css"> 
     <link rel="stylesheet" href="util.css">
@@ -33,16 +32,21 @@
          <nav data-type='list'>
           <ul >
             <header>Actividades Disponibles</header>
-            <li><span class='icon-plus' ></span><a id='btn-newMenu' href="#">Crear nuevo menu</a></li>
-            <li><span class='icon-list' ></span><a href="#">Revisar lista de menues</a></li>
-            <li><span class='icon-mail' ></span><a id='btn-newContacto' href="#">Soporte y contacto</a></li>
-            <li><span class='icon-share'></span><a href="#">Compartir</a></li>
-            <li><span class='icon-food' ></span><a href="#">Platos recomendados</a></li>
+            <li><span class='icon-plus' ></span>
+            <a id='btn-newMenu' href="#">Crear nuevo menu</a></li>
+            <li><span class='icon-list' ></span>
+            <a href="#">Revisar lista de menues</a></li>
+            <li><span class='icon-mail' ></span>
+            <a id='btn-newContacto' href="mailto:devx.cry@gmail.com">Soporte y contacto</a></li>
+            <li><span class='icon-share'></span>
+            <a href="#">Compartir</a></li>
+            <li><span class='icon-food' ></span>
+            <a href="#">Platos recomendados</a></li>
           </ul>
         </nav>
       </article>    
     </section> <!-- end drawer -->
-  <!-- nueva pagina  -->
+  <!-- NUEVO MENU                         -->
   <section role="region" id="newMenu" data-position="right">
       <header class='fixed'>
           <button id='btn-backMain1'>
@@ -69,21 +73,8 @@
         </form>
       </article>
   </section>
-  <!-- nueva pagina -->
-  <section role='region' id='contacto' data-position='right'>
-    <header class="fixed" >
-      <button id='btn-backMain2'>
-        <span role='back' class='icon icon-back'>back</span>
-      </button>        
-        <h1>Bea | Soporte y Contacto</h1>
-    </header>
-    <article class="content scrollable header">
-      <form >                   
-        <a role='button' href="mailto=devx.cry@gmail.com">Enviar</a>      
-      </form>
-    </article>  
-  </section>
   <script type="text/javascript" defer src="js/app.js"></script> 
+  <script type='text/javascript' defer src='js/main.js'></script>
 </body>
 </html>
 
